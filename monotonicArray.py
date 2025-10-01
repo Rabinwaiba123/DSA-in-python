@@ -27,7 +27,6 @@ def is_monotonic(arr):
         for k in range(n-1):
             if arr[k] > arr[k+1]:
                 return False        
-
     return True
 
 print(is_monotonic([1, 3, 2]))
